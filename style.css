@@ -1,3 +1,9 @@
 .slider-block{
 	margin-top: 51px;
 }
+a.spoiler:after{
+	content: " [-]";
+}
+a.spoiler.collapsed:after{
+	content: " [+]";
+}
